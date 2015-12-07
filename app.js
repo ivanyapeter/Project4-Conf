@@ -11,6 +11,23 @@ var app = express();
 
 var sass = require('node-sass-middleware');
 
+//---- open json files
+var fs = require('fs');
+
+// load speakers file
+app.all('*', function(req, res, next){
+  fs.readFile('data/speakers.json', function(err, data){
+    res.locals.speakers = JSON.parse(data);
+    next();
+  });
+});
+
+// speakers feed in json
+app.get('/api/speakers', function(req, res){
+  res.json(res.locals.speakers);
+});
+// ---- end open json files
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

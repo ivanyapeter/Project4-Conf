@@ -1,5 +1,7 @@
 // parallax hard coded. need to change to accomodate where th containers are
 $(document).ready(function() {
+	
+// PARALLAX SCROLLING
 	$(window).scroll(function() {
 
 		var wScroll = $(this).scrollTop();
@@ -26,4 +28,11 @@ $(document).ready(function() {
 		}
 
 	});
+
+// SPEAKERS TEXTBOX
+	$('.speaker').on('click', 'img', function() {
+		console.log(this);
+		$('#speakers').append('<div>hello</div>');
+	});
+
 });
