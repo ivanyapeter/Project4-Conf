@@ -3,70 +3,80 @@
 		"name": "Aviel Goh",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/animals/"
+		"img_path": "http://lorempixel.com/480/640/animals/",
+		"time": "9:00"
 	},
 
 	{
 		"name": "Helen Habakuk",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/nature/"
+		"img_path": "http://lorempixel.com/480/640/nature/",
+		"time": "9:30"
 	},
 
 	{
 		"name": "Keryn Robinson",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/transport/"
+		"img_path": "http://lorempixel.com/480/640/transport/",
+		"time": "10:00"
 	},
 
 	{
 		"name": "Kylie Sy",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/cats/"
+		"img_path": "http://lorempixel.com/480/640/cats/",
+		"time": "10:30"
 	},
 
 	{
 		"name": "Ravi Chada",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/nature/"
+		"img_path": "http://lorempixel.com/480/640/nature/",
+		"time": "11:00"
 	},
 
 	{
 		"name": "Asep Norzai",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/food/"
+		"img_path": "http://lorempixel.com/480/640/food/",
+		"time": "11:30"
 	},
 
 	{
 		"name": "Ashton Sobell",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/transport/"
+		"img_path": "http://lorempixel.com/480/640/transport/",
+		"time": "13:30"
 	},
 	
 	{
 		"name": "Bono Liu",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/cats/"
+		"img_path": "http://lorempixel.com/480/640/cats/",
+		"time": "14:00"
 	},
 
 	{
 		"name": "Gregory Fernandes",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/cats/"
+		"img_path": "http://lorempixel.com/480/640/cats/",
+		"time": "14:30"
 	},
 
 	{
 		"name": "Ivan Yapeter",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/food/"
+		"img_path": "http://lorempixel.com/480/640/food/",
+		"time": "15:00"
 	},
 
 
@@ -74,6 +84,7 @@
 		"name": "Tobias Letcher",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/480/640/cats/"
+		"img_path": "http://lorempixel.com/480/640/cats/",
+		"time": "15:30"
 	}
 ]

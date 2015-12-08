@@ -1,0 +1,28 @@
+<section id="timetable">
+
+  <h2>Timetable</h2>
+  <ul id="timeline">
+    <% var count = speakers.length %> 
+    <% speakers.forEach(function(speaker){ %> 
+      <li class="work">
+        <% if (count === speakers.length) { %>
+          <input class="radio" id="work<%= count %>" name="works" type="radio" checked>
+        <% } else { %>
+          <input class="radio" id="work<%= count %>" name="works" type="radio">
+        <% } %>
+        <div class="relative">
+          <label for="work<%= count %>">Lorem ipsum dolor sit amet</label>
+          <span class="date"><%= speaker.time %></span>
+          <span class="circle" style="background-image: url(<%= speaker.img_path %>); background-size: contain;"></span>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!
+          </p>
+        </div>
+      </li>
+      <% count-- %>
+    <% }); %>
+  </ul>
+  
+</section>
