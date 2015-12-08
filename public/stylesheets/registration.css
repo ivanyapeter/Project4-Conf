@@ -1,0 +1,69 @@
+.pricing h1 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.pricing-boxes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 3%;
+}
+
+.pricing-box {
+  display: inline-block;
+  align-self: flex-end;
+  width: 190px;
+  height: 220px;
+}
+
+.left-pricing-box, .right-pricing-box {
+  border-top: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
+.left-pricing-box {
+  border-left: 2px solid lightgrey;
+}
+
+.right-pricing-box {
+  border-right: 2px solid lightgrey;
+}
+
+.main-pricing-box {
+  height: 240px;
+  border: 4px solid rgb(234, 82, 111);
+}
+
+.main-pricing-box .box-head {
+  color: white;
+  background-color: rgb(234, 82, 111);
+}
+
+.box-head {
+  padding: 1em;
+  background-color: lightgrey;
+}
+
+.box-body td {
+  padding: 0.4em;
+  text-transform: none;
+}
+
+.box-body td h4 {
+  font-size: 1em;
+  color: rgb(234, 82, 111);
+}
+
+.box-body td p {
+  font-size: 0.75em;
+}
+
+.pricing-eventbrite  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  display: block;
+  text-align: center;
+}
