@@ -69,6 +69,13 @@ h2 {
 		height: 15em;
 		border-radius: 50%;
 		margin: 0 auto;
+		-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+
+  	&:hover {
+	  	-webkit-filter: grayscale(0);
+	  	filter: grayscale(0);
+  	}
 	}
 }
 
@@ -100,7 +107,7 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
-	#speakers {
+	#speakers, #about {
 		padding-left: 13%;
 		padding-right: 13%;
 	}

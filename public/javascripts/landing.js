@@ -27,12 +27,22 @@ $(document).ready(function() {
 			});
 		}
 
-	});
+		if (wScroll > 1000) {
+			$('div.speaker:lt(3)').each(function(index) {
+				setTimeout(function() {
+					$('div.speaker').eq(index + 6).addClass('show');
+				}, 200 * (index + 2));
+			});
+		}
 
-// SPEAKERS TEXTBOX
-	$('.speaker').on('click', 'img', function() {
-		console.log(this);
-		$('#speakers').append('<div>hello</div>');
+		if (wScroll > 1320) {
+			$('div.speaker:lt(3)').each(function(index) {
+				setTimeout(function() {
+					$('div.speaker').eq(index + 9).addClass('show');
+				}, 200 * (index + 2));
+			});
+		}
+
 	});
 
 });

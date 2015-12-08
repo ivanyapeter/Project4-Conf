@@ -1,43 +1,79 @@
 [
 	{
-		"name": "See Eses",
+		"name": "Aviel Goh",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/cats"
+		"img_path": "http://lorempixel.com/480/640/animals/"
 	},
 
 	{
-		"name": "Jay Query",
+		"name": "Helen Habakuk",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/animals"
+		"img_path": "http://lorempixel.com/480/640/nature/"
 	},
 
 	{
-		"name": "Aychtee Emel",
+		"name": "Keryn Robinson",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/food"
+		"img_path": "http://lorempixel.com/480/640/transport/"
 	},
 
 	{
-		"name": "Ruby Rails",
+		"name": "Kylie Sy",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/transport"
+		"img_path": "http://lorempixel.com/480/640/cats/"
 	},
 
 	{
-		"name": "Java Script",
+		"name": "Ravi Chada",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/nature"
+		"img_path": "http://lorempixel.com/480/640/nature/"
 	},
 
 	{
-		"name": "Hello World",
+		"name": "Asep Norzai",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"img_path": "http://lorempixel.com/g/480/640/cats/"
+		"img_path": "http://lorempixel.com/480/640/food/"
+	},
+
+	{
+		"name": "Ashton Sobell",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/transport/"
+	},
+	
+	{
+		"name": "Bono Liu",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	},
+
+	{
+		"name": "Gregory Fernandes",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	},
+
+	{
+		"name": "Ivan Yapeter",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/food/"
+	},
+
+
+	{
+		"name": "Tobias Letcher",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
 	}
 ]
