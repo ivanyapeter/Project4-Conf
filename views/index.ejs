@@ -2,16 +2,14 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel="stylesheet" href='/stylesheets/normalize.css' />
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-		<script src="javascripts/landing.js"></script>
+    <% include partials/stylesheets.ejs %>
+    <% include partials/javascripts.ejs %>
   </head>
   <body>
 
 		<% include partials/home.ejs %>
 		<% include partials/about.ejs %>
+    <% include partials/map.ejs%>
 		<% include partials/speakers.ejs %>
 		<% include partials/register.ejs %>
 		<% include partials/footer.ejs %>
