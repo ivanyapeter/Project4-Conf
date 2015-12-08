@@ -10,16 +10,6 @@ h2 {
 	text-align: center;
 }
 
-#home {
-	height: 100vh;
-	background-color: #3fb0ac;
-}
-
-.title {
-	padding: 200px 0;
-	text-align: center;  
-}
-
 #about {
 	background-color: #fae596;
 	padding: 30px;
@@ -49,12 +39,17 @@ h2 {
 }
 
 .speaker {
-	float: left;
-	width: 31%;
+	// float: left;
+	// width: 32%;
 	opacity: 0;
 	transform: translateX(-20px);
-	margin-right: 2%;
-	margin-bottom: 2%;
+	// margin-right: 2%;
+	// margin-bottom: 2%;
+	// &:nth-of-type(3n) {
+	// 	margin-right: 0;
+	// }
+
+	text-align: center;
 
 	&.show {
 		opacity: 1;
@@ -65,6 +60,17 @@ h2 {
 	img {
 		max-width: 100%;
 		display: block;
+		width: 15em;
+		height: 15em;
+		border-radius: 50%;
+		margin: 0 auto;
+		-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+
+  	&:hover {
+	  	-webkit-filter: grayscale(0);
+	  	filter: grayscale(0);
+  	}
 	}
 }
 
@@ -81,6 +87,23 @@ h2 {
 
 // media queries
 
-@media screen and (min-width: 700px) {
-	
+@media screen and (min-width: 650px) {
+	.speaker {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.speaker {
+		float: left;
+		width: 33.3333%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#speakers, #about {
+		padding-left: 13%;
+		padding-right: 13%;
+	}
 }

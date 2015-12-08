@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Aviel Goh",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/animals/"
+	},
+
+	{
+		"name": "Helen Habakuk",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/nature/"
+	},
+
+	{
+		"name": "Keryn Robinson",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/transport/"
+	},
+
+	{
+		"name": "Kylie Sy",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	},
+
+	{
+		"name": "Ravi Chada",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/nature/"
+	},
+
+	{
+		"name": "Asep Norzai",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/food/"
+	},
+
+	{
+		"name": "Ashton Sobell",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/transport/"
+	},
+	
+	{
+		"name": "Bono Liu",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	},
+
+	{
+		"name": "Gregory Fernandes",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	},
+
+	{
+		"name": "Ivan Yapeter",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/food/"
+	},
+
+
+	{
+		"name": "Tobias Letcher",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"img_path": "http://lorempixel.com/480/640/cats/"
+	}
+]

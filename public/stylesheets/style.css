@@ -1,1 +1,73 @@
+<<<<<<< HEAD
 html{box-sizing:border-box}h1,h2{margin:0}h2{text-align:center}#home{height:100vh;background-color:#3fb0ac}.title{padding:200px 0;text-align:center}#about{background-color:#fae596;padding:30px}#about p{opacity:0}#about p.show{opacity:1;transition:1s}#speakers{background-color:#dddfd4;padding:30px;overflow:hidden}#speakers h2{margin-bottom:20px}.speaker{float:left;width:31%;opacity:0;transform:translateX(-20px);margin-right:2%;margin-bottom:2%}.speaker.show{opacity:1;transform:translateY(0px);transition:1s}.speaker img{max-width:100%;display:block}#register{padding:30px}#footer{background-color:#173e43;padding:30px;color:#fff;text-align:center}
+=======
+html {
+  box-sizing: border-box; }
+
+h1, h2 {
+  margin: 0; }
+
+h2 {
+  text-align: center; }
+
+#about {
+  background-color: #fae596;
+  padding: 30px; }
+  #about p {
+    opacity: 0; }
+    #about p.show {
+      opacity: 1;
+      transition: 1s; }
+
+#speakers {
+  background-color: #dddfd4;
+  padding: 30px;
+  overflow: hidden; }
+  #speakers h2 {
+    margin-bottom: 20px; }
+
+.speaker {
+  opacity: 0;
+  transform: translateX(-20px);
+  text-align: center; }
+  .speaker.show {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s; }
+  .speaker img {
+    max-width: 100%;
+    display: block;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    margin: 0 auto;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1); }
+    .speaker img:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
+
+#register {
+  padding: 30px; }
+
+#footer {
+  background-color: #173e43;
+  padding: 30px;
+  color: #fff;
+  text-align: center; }
+
+@media screen and (min-width: 650px) {
+  .speaker {
+    float: left;
+    width: 50%; } }
+
+@media screen and (min-width: 900px) {
+  .speaker {
+    float: left;
+    width: 33.3333%; } }
+
+@media screen and (min-width: 1200px) {
+  #speakers, #about {
+    padding-left: 13%;
+    padding-right: 13%; } }
+>>>>>>> 7ed05bb0260b38c8a2b27707f151cec439402663
