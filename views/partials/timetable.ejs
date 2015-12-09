@@ -1,9 +1,12 @@
-<section id="timetable">
+<section class="section-body" id="schedule">
+  <div class="section-heading">
+      <h1>Schedule</h1>
+      <hr>
+  </div>
 
-  <h2>Timetable</h2>
   <ul id="timeline">
-    <% var count = speakers.length %> 
-    <% speakers.forEach(function(speaker){ %> 
+    <% var count = speakers.length %>
+    <% speakers.forEach(function(speaker){ %>
       <li class="work">
         <% if (count === speakers.length) { %>
           <input class="radio" id="work<%= count %>" name="works" type="radio" checked>
@@ -22,5 +25,5 @@
       <% count-- %>
     <% }); %>
   </ul>
-  
+
 </section>
