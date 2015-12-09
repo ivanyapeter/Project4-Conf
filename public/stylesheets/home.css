@@ -15,22 +15,31 @@ nav {
   height: 60px;
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: green;
   z-index: 500;
 }
 
-nav ul {
-  padding: 20px;
-  margin: 0 auto;
-  list-style: none;
+nav#main-nav {
+  display: none;
+}
+
+nav#responsive-nav {
+  display: block;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block;
+  padding: 10px 0;
+  margin: 0;
 }
 
-nav ul li a {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+nav a {
   padding: 10px 0;
   color: #fff;
   font-size: 1rem;
@@ -40,12 +49,72 @@ nav ul li a {
   letter-spacing: 0.15em;
 }
 
-nav ul li a:hover {
+nav a:hover {
   color: rgb(245, 121, 21);
 }
 
 a.active {
   border-bottom: 2px solid #ecf0f1;
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+
+.hamburger {
+  float: right;
+  padding: 15px 20px;
+}
+
+.responsive-menu {
+  margin-top: 60px;
+  background-color: black;
+  display: none;
+}
+
+.responsive-menu li {
+  padding-left: 20px;
+}
+
+.responsive-menu li:hover {
+  background-color: white;
+}
+
+.showing {
+  display: block;
+}
+
+
+/***** NAVIGATION MEDIA QUERY *****/
+
+@media screen and (min-width: 750px) {
+
+  nav#responsive-nav {
+    display: none;
+  }
+
+  nav#main-nav {
+    display: inline-block;
+  }
+
+  .header-nav-item {
+    padding-left: 20px;
+  }
+
+  nav ul {
+    padding-top: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav li:hover {
+    background-color: none;
+  }
+  
 }
 
 /***** VIDEO *****/
