@@ -1,6 +1,6 @@
 // parallax hard coded. need to change to accomodate where th containers are
 $(document).ready(function() {
-	
+
 // PARALLAX SCROLLING
 	$(window).scroll(function() {
 

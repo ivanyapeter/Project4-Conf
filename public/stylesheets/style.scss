@@ -14,7 +14,7 @@ h2 {
 }
 
 .section-body {
-	padding: 5%;
+	padding: 6%;
 }
 
 // style for each sections' heading
@@ -42,7 +42,7 @@ h2 {
  * ------------------------------------- */
 
 .about-section-body {
-	width: 100%;
+	width: 70%;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
@@ -177,9 +177,10 @@ h2 {
 	.pricing-eventbrite  {
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
+		max-width: 710px;
 		display: block;
 		text-align: center;
+		border: 2px solid lightgrey;
 	}
 
 @media screen and (max-width: 767px) {
@@ -195,6 +196,7 @@ h2 {
 		 flex-grow: 2;
 		 order: 1;
 		 margin-bottom: 5%;
+		 width: 100%;
 		}
 
 		.main-pricing-box .box-head {
@@ -202,7 +204,7 @@ h2 {
 		}
 
 	 .main-pricing-box .box-body {
-	   font-size: 1.2em;
+	   font-size: 1.1em;
 	 }
 
 	 .left-pricing-box {
@@ -216,12 +218,64 @@ h2 {
 		 width: 50%;
 		 border-left: 1px solid lightgrey;
 	 }
+
+	 .pricing-eventbrite  {
+     width: 100%;
+   }
+
+	 .box-body td p {
+		 font-size: 0.9em;
+	 }
+ }
+
+ /* -------------------------------------
+  * SPONSORS SECTION
+  * ------------------------------------- */
+
+#sponsors {
+	background-color: black;
+	color: white;
+}
+ .sponsors-section-body {
+ 	width: 70%;
+ 	margin-top: 5%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+ 	p {
+ 		text-align: center;
+ 		font-size: 1em;
+
+		a {
+			text-decoration: none;
+			color: #337ab7;
+		}
+ 	}
+
+	.sponsors-logos {
+		display: flex;
+		justify-content: space-around;
+		// align-content: center;
+		padding-top: 30px;
+
+		img {
+			width: 30%;
+			height: 30%;
+		}
+	}
+
  }
 
 
+
+
+ /* -------------------------------------
+  * SPEAKERS SECTION
+  * ------------------------------------- */
+
 #speakers {
 	background-color: #dddfd4;
-	padding: 30px;
+	// padding: 30px;
 	overflow: hidden;
 
 	h2 {
@@ -266,18 +320,30 @@ h2 {
 }
 
 #footer {
-	background-color: #173e43;
-	padding: 30px;
-	color: #fff;
 	text-align: center;
+	padding: 2%;
 
-	ul {
-		padding: 0;
-	}
-	li {
-		display: inline-block;
+	a {
+		text-decoration: none;
+		color: #337ab7;
 	}
 }
+
+// #footer {
+// 	background-color: #173e43;
+// 	padding: 30px;
+// 	color: #fff;
+// 	text-align: center;
+//
+// 	ul {
+// 		padding: 0;
+// 	}
+// 	li {
+// 		display: inline-block;
+// 	}
+// }
+
+
 
 // media queries
 
@@ -286,9 +352,7 @@ h2 {
 		float: left;
 		width: 50%;
 	}
-	.pricing-eventbrite  {
-    width: 710px;
-  }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -475,11 +539,13 @@ label {
   }
 
   #timeline li {
-    margin: 20px 0;
+    margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: -5px;
   }
 
   label {
-    width: 75%;
+    width: 70%;
     font-size: 1em;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -502,7 +568,7 @@ label {
 	.circle {
 	  margin-top: -5px;
 	  top: 50%;
-	  left: -10px;
+	  left: -6px;
 	  width: 10px;
 	  height:10px;
 	  -webkit-filter: grayscale(1);
@@ -516,7 +582,7 @@ label {
 	.date {
 		margin-top: -2px;
 	  top: 50%;
-	  left: -55px;
+	  left: -52px;
 	  font-size: 1.1em;
 	  line-height: 5px;
 	  position: absolute;
