@@ -11,9 +11,25 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "firebase": "^2.3.2",
     "jquery": "^2.1.4",
     "morgan": "~1.6.1",
     "node-sass": "^3.4.2",
-    "node-sass-middleware": "^0.9.7"
-  }
+    "node-sass-middleware": "^0.9.7",
+    "sass": "^0.5.0",
+    "supervisor": "^0.9.1"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyrdmen/Project4-Conf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fyrdmen/Project4-Conf/issues"
+  },
+  "homepage": "https://github.com/fyrdmen/Project4-Conf#readme",
+  "description": ""
 }
