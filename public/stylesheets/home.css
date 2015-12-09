@@ -86,6 +86,10 @@ a.active {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.video-overlay-contents {
+  margin: 10px;
+}
+
 .video-overlay-contents h1 {
   font-size: 8em;
 }
