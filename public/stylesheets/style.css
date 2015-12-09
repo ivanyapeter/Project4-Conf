@@ -180,7 +180,8 @@ h2 {
 .speaker {
   opacity: 0;
   transform: translateX(-20px);
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 10px; }
   .speaker.show {
     opacity: 1;
     transform: translateY(0px);
