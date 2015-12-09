@@ -1,14 +1,32 @@
+$primary-color: rgb(234, 82, 111);
+
 html {
 	box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2 { 
 	margin: 0;
 }
 
 h2 {
 	text-align: center;
 }
+
+.btn {
+  border: 1px solid transparent;
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 0.8em;
+  margin: 5%;
+  font-size: 1.2em;
+  width: 30%;
+  color: white;
+	
+	&:hover {
+  	background-color: lighten($primary-color, 10%);
+  }
+}
+
 
 #about {
 	background-color: #fae596;
@@ -24,8 +42,29 @@ h2 {
 }
 
 #map {
-	height: 100px;
+	position: relative;
+}
+
+.map {
+	height: 400px;
 	width: 100%; 
+}
+
+.location {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding-left: 16px;
+	border-left: 4px solid #fff;
+	color: #fff;
+	margin-left: -417px;
+	line-height: 1.5;
+	max-width: 240px;
+	transform: translateY(-50%);
+
+	a {
+		text-decoration: none;
+	}
 }
 
 #speakers {
@@ -88,6 +127,13 @@ h2 {
 	padding: 30px;
 	color: #fff;
 	text-align: center;
+
+	ul {
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+	}
 }
 
 // media queries
@@ -104,10 +150,16 @@ h2 {
 		float: left;
 		width: 33.3333%;
 	}
-
 	#timetable {
 		padding-left: 10em;
 		padding-right: 10em;
+	}
+}
+
+@media (max-width: 991px) {
+	.location {
+		left: 20px;
+		margin-left: 0;
 	}
 }
 
