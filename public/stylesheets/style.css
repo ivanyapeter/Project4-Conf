@@ -1,5 +1,6 @@
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif; }
 
 h1, h2 {
   margin: 0; }

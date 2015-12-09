@@ -1,7 +1,8 @@
 .pricing h1 {
   font-size: 2em;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
+  text-transform: uppercase;
 }
 
 .pricing-boxes {
