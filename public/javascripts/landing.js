@@ -7,11 +7,15 @@ $(document).ready(function() {
 		var wScroll = $(this).scrollTop();
 		console.log(wScroll);
 
-		if (wScroll > 115) {
-			$('#about p').addClass('show');
+		$('.video-overlay-contents').css({
+			'opacity': 1 - (wScroll/477)
+		})
+
+		if (wScroll > 530) {
+			$('.about-section-body').addClass('show');
 		}
 
-		if (wScroll > 370) {
+		if (wScroll > 1536) {
 			$('div.speaker').each(function(index) {
 				setTimeout(function() {
 					$('div.speaker').eq(index).addClass('show');
