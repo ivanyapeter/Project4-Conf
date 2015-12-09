@@ -1,0 +1,71 @@
+.first-stage {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+  border: 1px solid transparent;
+  background-color: #ea526f;
+  border-radius: 5px;
+  padding: 0.8em;
+  margin: 5%;
+  font-size: 1.2em;
+  width: 30%;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #f07f95;
+}
+
+input {
+	margin: 3em auto 2em;
+	border: 0px;
+	border-bottom: 3px solid rgb(234, 82, 111);
+	outline: none;
+	font-size: 1.5em;
+	padding-bottom: .5em;
+}
+
+.error-msg {
+	display: block;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.second-stage .game-bar {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+}
+
+.second-stage #user-name {
+	margin-top: 25px;
+	color: white;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+
+.second-stage p {
+	margin: 0;
+}
+
+.second-stage .questions-box {
+	/*padding-top: 125px;*/
+}
+
+.second-stage input {
+	width: 100%;
+}
+
+.third-stage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
