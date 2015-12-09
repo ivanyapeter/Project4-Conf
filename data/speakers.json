@@ -1,0 +1,133 @@
+[
+	{
+		"name": "Aviel Goh",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/animals/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "9:00",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Helen Habakuk",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "9:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Keryn Robinson",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "10:00",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Kylie Sy",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "10:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Ravi Chada",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "11:00",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Asep Norzai",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/food/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "11:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Ashton Sobell",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "13:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+	
+	{
+		"name": "Bono Liu",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "14:00",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Gregory Fernandes",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "14:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Ivan Yapeter",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/food/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "15:00",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	},
+
+	{
+		"name": "Tobias Letcher",
+		"description": "master of inspect element",
+		"github": "xyz@xyz.com",
+		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"talk": {
+			"title": "Lorem Ipsum Dolor Sit Amet",
+			"time": "15:30",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+		}
+	}
+]

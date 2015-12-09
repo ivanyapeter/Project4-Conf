@@ -11,6 +11,23 @@ var app = express();
 
 var sass = require('node-sass-middleware');
 
+//---- open json files
+var fs = require('fs');
+
+// load speakers file
+app.all('*', function(req, res, next){
+  fs.readFile('data/speakers.json', function(err, data){
+    res.locals.speakers = JSON.parse(data);
+    next();
+  });
+});
+
+// speakers feed in json
+app.get('/api/speakers', function(req, res){
+  res.json(res.locals.speakers);
+});
+// ---- end open json files
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -21,17 +38,20 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 // sass
 app.use(sass({
     /* Options */
     src: path.join(__dirname, 'public'),
     dest: path.join(__dirname, 'public'),
-    debug: true,
-    outputStyle: 'compressed'
+    debug: true
+    // outputStyle: 'compressed'
     // prefix:  '/prefix'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/> 
 }));
+
+// this should be used after sass middleware
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
