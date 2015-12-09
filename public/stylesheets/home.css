@@ -1,7 +1,6 @@
 body {
-  font-family: 'Menlo';
+  /*font-family: 'Menlo';*/
   background-color: white;
-  text-transform: uppercase;
 }
 
 #home {
@@ -12,40 +11,79 @@ body {
 
 nav {
   width: 100%;
-  height: 60px;
+  height: 55px;
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 1);
   z-index: 500;
 }
 
-nav ul {
-  padding: 20px;
-  margin: 0 auto;
-  list-style: none;
+nav#main-nav {
+  display: none;
+}
+
+nav#responsive-nav {
+  display: block;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 10px;
+  display: block;
+  padding: 10px 0;
+  margin: 0;
 }
 
-nav ul li a {
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+nav a {
   padding: 10px 0;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1em;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.2s ease;
   letter-spacing: 0.15em;
 }
 
-nav ul li a:hover {
-  color: rgb(245, 121, 21);
+nav a:hover {
+  color: rgb(0, 199, 117);
 }
 
-a.active {
-  border-bottom: 2px solid #ecf0f1;
+.active {
+  border-bottom: 4px solid rgb(0, 199, 117);
+  color: rgb(0, 199, 117);
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+}
+
+.hamburger {
+  float: right;
+  padding: 15px 20px;
+  color: rgb(0, 199, 117);
+}
+
+.responsive-menu {
+  margin-top: 60px;
+  background-color: black;
+  display: none;
+}
+
+.responsive-menu li {
+  padding-left: 20px;
+}
+
+.responsive-menu li:hover {
+  background-color: white;
+}
+
+.showing {
+  display: block;
 }
 
 /***** VIDEO *****/
@@ -54,7 +92,7 @@ a.active {
   position: relative;
   text-align: center;
   overflow: hidden;
-  margin-top: 60px;
+  top: 0;
   height: 100vh;
 }
 
@@ -87,12 +125,16 @@ a.active {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.video-overlay-contents {
+  margin: 10px;
+}
+
 .video-overlay-contents h1 {
-  font-size: 8em;
+  font-size: 6em;
 }
 
 .video-overlay-contents h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 5%;
 }
 
@@ -125,4 +167,47 @@ a.active {
 .countdown .countdown-type {
   font-size: 1em;
   text-transform: lowercase;
+}
+
+/***** MEDIA QUERIES *****/
+
+@media screen and (min-width: 750px) {
+
+  nav#responsive-nav {
+    display: none;
+  }
+
+  nav#main-nav {
+    display: inline-block;
+  }
+
+  .header-nav-item {
+    padding-left: 20px;
+  }
+
+  nav ul {
+    padding-top: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav li:hover {
+    background-color: none;
+  }
+
+  .video-overlay-contents h1 {
+    font-size: 8em;
+  }
+
+  .video-overlay-contents h3 {
+    font-size: 2em;
+  }
+
+  .countdown .countdown-type {
+    font-size: 1em;
+  }
+
 }
