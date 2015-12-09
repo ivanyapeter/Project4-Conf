@@ -15,7 +15,7 @@ $(document).ready(function() {
 			$('.about-section-body').addClass('show');
 		}
 
-		if (wScroll > 1536) {
+		if (wScroll > 1000) {
 			$('div.speaker').each(function(index) {
 				setTimeout(function() {
 					$('div.speaker').eq(index).addClass('show');
