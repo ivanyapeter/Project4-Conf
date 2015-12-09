@@ -3,7 +3,7 @@
 		"name": "Aviel Goh",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/animals/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/aviel.png",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "9:00",
@@ -15,7 +15,7 @@
 		"name": "Helen Habakuk",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/helen.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "9:30",
@@ -27,7 +27,7 @@
 		"name": "Keryn Robinson",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/keryn.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "10:00",
@@ -39,7 +39,7 @@
 		"name": "Kylie Sy",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASJAAAAJDAxMDE3YmM4LWZkN2QtNDU3MS04Mjc4LWExMDc1YjcxZDFhYg.jpg",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "10:30",
@@ -51,7 +51,7 @@
 		"name": "Ravi Chada",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ravi.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "11:00",
@@ -63,7 +63,7 @@
 		"name": "Asep Norzai",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/food/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/asev.png",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "11:30",
@@ -75,7 +75,7 @@
 		"name": "Ashton Sobell",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/ashton.png",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "13:30",
@@ -87,7 +87,7 @@
 		"name": "Bono Liu",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/bono.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "14:00",
@@ -99,7 +99,7 @@
 		"name": "Gregory Fernandes",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/greg.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "14:30",
@@ -111,7 +111,7 @@
 		"name": "Ivan Yapeter",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/food/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ivan.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "15:00",
@@ -123,7 +123,7 @@
 		"name": "Tobias Letcher",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/toby.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "15:30",
