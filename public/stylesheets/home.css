@@ -165,21 +165,6 @@ a.active {
   margin-bottom: 5%;
 }
 
-.video-overlay-contents button {
-  border: 1px solid transparent;
-  background-color: rgb(245, 121, 21);
-  border-radius: 5px;
-  padding: 0.8em;
-  margin: 5%;
-  font-size: 1.2em;
-  width: 30%;
-  color: white;
-}
-
-.video-overlay-contents button:hover {
-  background-color: rgba(245, 121, 21, 0.8);
-}
-
 /***** COUNTDOWN *****/
 
 .countdown {

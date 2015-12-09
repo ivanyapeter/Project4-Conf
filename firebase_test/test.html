@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>firebase test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+</head>
+<body>
+
+  <div class="enter-name-box">
+    <label for=""> Enter A Name</label>
+    <input id="name" type="text">
+    <button id="name-button">GO!</button>
+  </div>
+  <div>
+    <h3 id="user-name">yourname</h3>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div class="questions-box">
+  </div>
+<!--   <div id="q1" class="question">Do you have a dog</div>
+  <div id="q2" class="question">Do you work in this industry</div>
+  <div id="q3" class="question">Name some thing</div>
+  <div id="q4" class="question">More things</div>
+  <div id="q5" class="question">Another thing</div> -->
+</body>
+</html>
+
+<script type="text/javascript" src="http://l2.io/ip.js?var=myip"></script>
+<script>
+
+function shuffle(o){
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+}
+var listOfQuestion = ['Do you have a blue dog', 'Have you ever gone rock climbing', 'Have you ever killed for parking', 'Have you worked as a morgue technician for more the 3 years', 'Have you ever eaten a marsupial', 'Have you assembled any Ikea this year', 'Do you play with the chair arm rests on a regular basis'];
+shuffle(listOfQuestion);
+
+
+var ipUsername = myip.split('.').join("");
+var ref = new Firebase("dazzling-inferno-9236.firebaseIO.com");
+var newRef = new Firebase("dazzling-inferno-9236.firebaseio.com/users/"+ipUsername )
+var usersRef = ref.child("users");
+// var userQuestionRef = newRef.child("questions");
+var userQuestionRef = newRef.child("questions");
+var username;
+var numberOfQestions = 5;
+var questionObject;
+
+
+// window.setInterval( function() {
+  
+//   ref.on("value", function(snapshot) {
+//   var winner = snapshot.val();
+//   // if (Object.keys(winner).length === 0){
+//     console.log(winner.winner)
+    
+//   })
+  
+// }, 1000);
+
+function createUser(theUserName, ipName) {
+usersRef.set({
+  [ipName]: {
+    full_name: theUserName
+  }
+  });
+userQuestionRef.set({
+  });
+}
+
+$('button#name-button').on('click', function(){
+  username = $('input#name').val() 
+  if (username && (username.length >= 3 && username.length <= 8)){
+    $('h3#user-name').text(username);
+    console.log(ipUsername);
+    createUser(username, ipUsername);
+    createdQuestions();
+  }else if (username){
+    $('h3#user-name').text("User name must be between 3 and 8 char");
+  }
+})
+
+function createdQuestions() {
+  $('.enter-name-box').empty();
+  for (var i = 1 ; i < 6; i++){
+
+  var $label = $("<label>", {id: ("q"+i), class: "question"});
+  var $inputBot = $("<input>", {id: ("a"+i), class: "input-a-name"});
+  $($label).append("<p>"+ listOfQuestion[i] +"</p>");
+  $("div.questions-box").append($label);
+  $("div.questions-box").append($inputBot);
+  $("div.questions-box").append('<br>');
+  
+
+  // $('#q1').on('click', function() {
+  //   console.log('q1')
+  //   // var hopperRef = usersRef.child("user2");
+  //     userQuestionRef.update({
+  //     "question_1": "done"
+  // });
+  //     recall();
+    
+  //   })
+  // $('#q2').on('click', function() {
+  //   console.log('q2');
+  //   // var hopperRef = usersRef.child("user2");
+  //     userQuestionRef.update({
+  //     "question_2": "done"
+  // });
+  //     recall();
+  // })
+  // $('#q3').on('click', function() {
+  //   // var hopperRef = usersRef.child("user2");
+  //     userQuestionRef.update({
+  //     "question_3": "done"
+  // });
+  //     recall();
+  // })
+  // $('#q4').on('click', function() {
+  //   // var hopperRef = usersRef.child("user2");
+  //     userQuestionRef.update({
+  //     "question_4": "done"
+  // });
+  //     recall();
+  // })
+  // $('#q5').on('click', function() {
+  //   // var hopperRef = usersRef.child("user2");
+  //     userQuestionRef.update({
+  //     "question_5": "done"
+  // });
+  //     recall();
+  // })
+  }
+  createSubmit();
+  }
+
+function isEveryInputEmpty() {
+    var allEmpty = true;
+
+    $('input').each(function() {
+        if ($(this).val() !== '') {
+            allEmpty << true;
+        }
+    });
+    if (allEmpty.length === 5) {
+      console.log('here')
+      return true;
+    } else {
+      return false;
+    }
+}
+
+function createSubmit() {
+  var $submit = $("<button>", {id: "submit-all-name", class: "submit"});
+  $($submit).append("<p> Submit you names </p>");
+  $("div.questions-box").append('<br>');
+  $("div.questions-box").append($submit);
+
+  
+        
+  $('button#submit-all-name').on('click', function() {
+    // var hopperRef = usersRef.child("user2");
+      // console.log('here');
+      var allEmpty = [];
+      $('input').each(function() {
+          if ($(this).val().length > 0){
+            allEmpty.push(true);
+          }
+          
+          if (allEmpty.length === numberOfQestions) {
+            userQuestionRef.update({
+            "question_1": $('#a1').val(),
+            "question_2": $('#a2').val(),
+            "question_3": $('#a3').val(),
+            "question_4": $('#a4').val(),
+            "question_5": $('#a5').val()
+            });
+            // recall();
+            recallSecond();
+          }
+      });
+      
+
+      
+  })
+}
+
+function recallSecond() {
+newRef.on("value", function(snapshot) {
+  questionObject = snapshot.val().questions;
+  if (Object.keys(questionObject).length === numberOfQestions){
+    ref.update  ({winner: username})
+    console.log('you are a winner')
+    $('body').html('<h1>WELL DONE, YOUR WERE MADE TO TALK TO HUMANS. ALL YOUR BASE ARE BELONG TO US</h1>');
+  }
+});
+}
+
+// function recall() {
+// newRef.on("value", function(snapshot) {
+//   questionObject = snapshot.val().questions;
+//   if (Object.keys(questionObject).length === numberOfQestions){
+//     ref.update  ({winner: username})
+//     console.log('you are a winner')
+//     $('body').html('<h1>YOU WON, ALL YOUR BASE ARE BELONG TO US</h1>');
+//   }
+// });
+// }
+
+  
+</script>
