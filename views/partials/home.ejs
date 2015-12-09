@@ -2,16 +2,33 @@
 
 	<!-- NAVIGATION BAR -->
 	<header>
-		<nav role="navigation" class="header-nav">
-			<ul>
-        <li class="header-nav-item"><a href="/">&lt;/&gt;</a></li>
+
+		<nav id="main-nav" role="navigation" class="header-nav">
+      <ul>
+        <li class="header-nav-item"><a href="/">&lt;WDI-CONF/&gt;</a></li>
 				<li class="header-nav-item"><a href="#about">ABOUT</a></li>
-				<li class="header-nav-item"><a href="#location">LOCATION</a></li>
 				<li class="header-nav-item"><a href="#speakers">SPEAKERS</a></li>
         <li class="header-nav-item"><a href="#schedule">SCHEDULE</a></li>
-				<li class="header-nav-item"><a href="#register">REGISTRATION</a></li>
+				<li class="header-nav-item"><a href="#register">REGISTER</a></li>
 			</ul>
-		</nav>
+    </nav>
+
+    <nav id="responsive-nav" role="navigation" class="header-nav">
+      <div class="menu-top">
+        <span class="logo"><a href="/">&lt;WDI-CONF/&gt;</a></span>
+        <span class="hamburger"><i class="fa fa-bars fa-2x"></i></span>
+      </div>
+
+      <div class="responsive-menu">
+        <ul>
+          <a href="#about"><li class="header-nav-item">ABOUT</li></a>
+          <a href="#speakers"><li class="header-nav-item">SPEAKERS</li></a>
+          <a href="#schedule"><li class="header-nav-item">SCHEDULE</li></a>
+          <a href="#register"><li class="header-nav-item">REGISTER</li></a>
+        </ul>
+      </div>
+    </nav>
+
 	</header>
 
 	<!-- BACKGROUND VIDEO -->
@@ -24,7 +41,7 @@
       <div class="video-overlay-contents">
   			<h1>&lt;WDI-CONF/&gt;</h1>
   			<h3>11-DECEMBER-2015</h3>
-        <button class="btn">BUY TICKETS</button>
+        <button class="btn"><a href="#register">BUY TICKETS</a></button>
 
         <div class="countdown">
           <table align="center">

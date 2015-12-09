@@ -46,6 +46,8 @@ h2 {
   color: white; }
   .btn:hover {
     background-color: #00fa93; }
+  .btn a {
+    text-decoration: none; }
 
 /* -------------------------------------
  * MAP SECTION
