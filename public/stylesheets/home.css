@@ -86,38 +86,6 @@ nav a:hover {
   display: block;
 }
 
-
-/***** NAVIGATION MEDIA QUERY *****/
-
-@media screen and (min-width: 750px) {
-
-  nav#responsive-nav {
-    display: none;
-  }
-
-  nav#main-nav {
-    display: inline-block;
-  }
-
-  .header-nav-item {
-    padding-left: 20px;
-  }
-
-  nav ul {
-    padding-top: 10px;
-  }
-
-  nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-
-  nav li:hover {
-    background-color: none;
-  }
-
-}
-
 /***** VIDEO *****/
 
 .video {
@@ -162,11 +130,11 @@ nav a:hover {
 }
 
 .video-overlay-contents h1 {
-  font-size: 8em;
+  font-size: 6em;
 }
 
 .video-overlay-contents h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 5%;
 }
 
@@ -199,4 +167,47 @@ nav a:hover {
 .countdown .countdown-type {
   font-size: 1em;
   text-transform: lowercase;
+}
+
+/***** MEDIA QUERIES *****/
+
+@media screen and (min-width: 750px) {
+
+  nav#responsive-nav {
+    display: none;
+  }
+
+  nav#main-nav {
+    display: inline-block;
+  }
+
+  .header-nav-item {
+    padding-left: 20px;
+  }
+
+  nav ul {
+    padding-top: 10px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  nav li:hover {
+    background-color: none;
+  }
+
+  .video-overlay-contents h1 {
+    font-size: 8em;
+  }
+
+  .video-overlay-contents h3 {
+    font-size: 2em;
+  }
+
+  .countdown .countdown-type {
+    font-size: 1em;
+  }
+
 }

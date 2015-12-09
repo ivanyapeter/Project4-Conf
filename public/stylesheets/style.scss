@@ -46,11 +46,17 @@ h2 {
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
+  opacity: 0;
 
 	p {
 		text-align: center;
 		font-size: 1em;
 	}
+
+  &.show {
+    opacity: 1;
+    transition: 1s;
+  }
 }
 
 .btn {
@@ -267,8 +273,6 @@ h2 {
  }
 
 
-
-
  /* -------------------------------------
   * SPEAKERS SECTION
   * ------------------------------------- */
@@ -284,17 +288,10 @@ h2 {
 }
 
 .speaker {
-	// float: left;
-	// width: 32%;
 	opacity: 0;
 	transform: translateX(-20px);
-	// margin-right: 2%;
-	// margin-bottom: 2%;
-	// &:nth-of-type(3n) {
-	// 	margin-right: 0;
-	// }
-
 	text-align: center;
+  margin-bottom: 10px;
 
 	&.show {
 		opacity: 1;
@@ -319,6 +316,10 @@ h2 {
 	}
 }
 
+ /* -------------------------------------
+ * FOOTER SECTION
+ * ------------------------------------- */
+
 #footer {
 	text-align: center;
 	padding: 2%;
@@ -328,6 +329,7 @@ h2 {
 		color: #337ab7;
 	}
 }
+
 
 // #footer {
 // 	background-color: #173e43;
@@ -344,8 +346,9 @@ h2 {
 // }
 
 
-
-// media queries
+/* -------------------------------------
+ * MEDIA QUERIES
+ * ------------------------------------- */
 
 @media screen and (min-width: 650px) {
 	.speaker {
