@@ -12,34 +12,10 @@ $(document).ready(function() {
 		}
 
 		if (wScroll > 370) {
-			$('div.speaker:lt(3)').each(function(index) {
+			$('div.speaker').each(function(index) {
 				setTimeout(function() {
 					$('div.speaker').eq(index).addClass('show');
-				}, 200 * (index + 2));
-			});
-		}
-
-		if (wScroll > 600) {
-			$('div.speaker:lt(3)').each(function(index) {
-				setTimeout(function() {
-					$('div.speaker').eq(index + 3).addClass('show');
-				}, 200 * (index + 2));
-			});
-		}
-
-		if (wScroll > 1000) {
-			$('div.speaker:lt(3)').each(function(index) {
-				setTimeout(function() {
-					$('div.speaker').eq(index + 6).addClass('show');
-				}, 200 * (index + 2));
-			});
-		}
-
-		if (wScroll > 1320) {
-			$('div.speaker:lt(3)').each(function(index) {
-				setTimeout(function() {
-					$('div.speaker').eq(index + 9).addClass('show');
-				}, 200 * (index + 2));
+				}, 200 * (index + 1));
 			});
 		}
 

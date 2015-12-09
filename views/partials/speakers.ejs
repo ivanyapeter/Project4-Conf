@@ -1,12 +1,14 @@
 <section id="speakers">
+	
 	<h2>SPEAKERS</h2>
 	<% speakers.forEach(function(speaker){ %>
 		<div class="speaker">
-			<img src="<%= speaker.img_path %>" alt="">
+			<img src="<%= speaker.imgPath %>" alt="">
 			<div class="description">
 				<h3><%= speaker.name %></h3>
 				<p><%= speaker.description %></p>
 			</div>
 		</div>
 	<% }); %>
+
 </section>
