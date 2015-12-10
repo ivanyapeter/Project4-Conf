@@ -169,6 +169,11 @@ nav a:hover {
   text-transform: lowercase;
 }
 
+.buy-btn {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 /***** MEDIA QUERIES *****/
 
 @media screen and (min-width: 750px) {
