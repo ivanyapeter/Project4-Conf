@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	margin: 3em auto 2em;
+	border: 0px;
+	border-bottom: 3px solid rgb(0, 199, 117);
+	outline: none;
+	font-size: 1.5em;
+	padding-bottom: .5em;
+}
+
+
+.btn {
+  border: 1px solid transparent;
+  background-color: #00c775;
+  padding: 0.8em;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: #00fa93;
+ }
+.btn a {
+  text-decoration: none;
+}
+
+.error-msg {
+	display: block;
+	height: 2em;
+	font-size: 0.8em;
+	color: grey;
+	min-width: 65%;
+	margin-bottom: 1em;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.first-stage {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.enter-name-box {
+	min-width: 64%;
+}
+
+.second-stage .error-msg {
+	margin: 1em 0;
+}
+
+
+.second-stage .game-bar {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	min-height: 80px;
+}
+
+.second-stage #user-name {
+	margin-top: 25px;
+	color: white;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+
+.second-stage p {
+	margin: 0;
+}
+
+.second-stage .questions-box {
+	/*padding-top: 125px;*/
+}
+
+.second-stage input {
+	width: 100%;
+}
+
+.third-stage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.finish {
+	margin-bottom: 1em;
+}
+
+.third-stage .btn {
+	margin: 1em 0;
+}

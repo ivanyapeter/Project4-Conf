@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Talk to Humans</title>
+  <link rel="stylesheet" href='/stylesheets/normalize.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/games.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+  <title>Talk to Humans</title>
+</head>
+<body class="games">
+
+  <div class="first-stage">
+    <div class="enter-name-box">
+      <header>
+        <h1>Welcome to WDI-CONF!</h1>
+        <p>Let's break some ice.</p>
+      </header>
+      <div>
+        <input id="name" type="text" placeholder="Enter your full name">
+        <div class="error-msg"></div>
+        <button id="name-button" class="btn" type="button"><i class="fa fa-angle-right"></i> Let's go!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="second-stage">
+    <div class="game-bar">
+      <div class="wrapper">
+        <p id="user-name"></p>
+        <p class="error-msg"></p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="questions-box">
+      </div>
+    </div>
+  </div>
+
+  <div class="third-stage">
+    
+  </div>
+
+
+</body>
+</html>
+
+<script>
+function shuffle(o){
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+}
+var listOfQuestion = ['Has a blue dog', 'Has gone rock climbing', 'Has killed for parking', 'Has worked as a morgue technician for more the 3 years', 'Has eaten a marsupial', 'Has assembled Ikea furniture this year', 'Plays with arm rests on a regular basis'];
+shuffle(listOfQuestion);
+
+
+var ref = new Firebase("dazzling-inferno-9236.firebaseIO.com");
+var newRef;
+var usersRef = ref.child("users");
+var userQuestionRef;
+var username;
+var numberOfQestions = 5;
+var questionObject;
+
+
+function createUser(theUserName) {
+usersRef.update({
+  [theUserName]: {
+    full_name: theUserName
+  }
+  });
+userQuestionRef.set({
+  });
+}
+
+$('#name-button').on('click', function(){
+  username = $('#name').val()
+  newRef = new Firebase("dazzling-inferno-9236.firebaseio.com/users/"+username);
+  userQuestionRef = newRef.child("questions");
+  if (username && (username.length >= 3 && username.length <= 8)){
+    $('#user-name').text("Hey there, " + username + "! Find someone who:");
+    $('.error-msg').text("all questions must be answered to get submitted");
+    createUser(username);
+    createdQuestions();
+  }else if (username){
+    $('.error-msg').text("User name must be between 3 and 8 char");
+  }
+})
+
+function createdQuestions() {
+  $('.first-stage').empty().css("height", "0");
+  $(".questions-box").css("padding", "125px 0 50px");
+  for ( var i = 1; i < 6; i++ ){
+    var $label = $("<label>", {id: ("q"+i), class: "question"});
+    var $inputBot = $("<input>", {id: ("a"+i), class: "input-a-name"});
+    $($label).append("<p>"+ listOfQuestion[i] +"</p>");
+    $(".questions-box").append($label);
+    $(".questions-box").append($inputBot);
+    $(".questions-box").append('<br>');
+  }
+  createSubmit();
+}
+
+function isEveryInputEmpty() {
+    var allEmpty = true;
+
+    $('input').each(function() {
+        if ($(this).val() !== '') {
+            allEmpty << true;
+        }
+    });
+    if (allEmpty.length === 5) {
+      console.log('here')
+      return true;
+    } else {
+      return false;
+    }
+}
+
+function createSubmit() {
+  var $submit = $("<button>", {id: "submit-all-name", class: "submit btn"});
+  $($submit).append("<p><i class='fa fa-paper-plane-o'></i> Submit</p>");
+  $("div.questions-box").append('<br>');
+  $("div.questions-box").append($submit);     
+  $('button#submit-all-name').on('click', function() {
+      var allEmpty = [];
+      $('input').each(function() {
+          if ($(this).val().length > 0){
+            allEmpty.push(true);
+          }
+          
+          if (allEmpty.length === numberOfQestions) {
+            userQuestionRef.update({
+            "question_1": $('#a1').val(),
+            "question_2": $('#a2').val(),
+            "question_3": $('#a3').val(),
+            "question_4": $('#a4').val(),
+            "question_5": $('#a5').val()
+            });
+            recallSecond();
+          } else {
+            $('.error-msg').text("C'mon find everyone!")
+          }
+      });    
+  });
+}
+
+function recallSecond() {
+  newRef.on("value", function(snapshot) {
+    questionObject = snapshot.val().questions;
+    if (Object.keys(questionObject).length === numberOfQestions) {
+      ref.update({winner: username});
+      console.log('you are a winner');
+      $('.second-stage').empty().css("height", "0");
+      $finish = $("<p>", { class: "finish" }).text("Thank you for your participation, enjoy the rest of the talk.");
+      var website = "localhost:3000"
+      $toHomepage = $("<a>", { class: "btn" }).attr("href", '/').text(" Homepage ").prepend("<i class='fa fa-code'></i>");
+      $toSchedule = $("<a>", { class: "btn" }).attr("href", "/#schedule").text(" Schedule").prepend("<i class='fa fa-comment-o'></i>");
+      $('.third-stage').css("height", "100vh").append($finish);
+      $('.third-stage').append($toHomepage);
+      $('.third-stage').append($toSchedule);
+    }
+  });
+}  
+</script>

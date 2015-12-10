@@ -43,8 +43,8 @@ h2 {
   margin-right: auto;
   opacity: 0; }
   .about-section-body p {
-    text-align: center;
-    font-size: 1em; }
+    font-size: 1em;
+    text-align: justify; }
   .about-section-body.show {
     opacity: 1;
     transition: 1s; }
@@ -209,12 +209,14 @@ h2 {
       width: 30%;
       height: 30%; }
 
+
 @media screen and (max-width: 767px) {
   .sponsors-section-body {
     padding-top: 65px;
     padding-bottom: 65px;
     padding-right: 5%;
     padding-left: 5%; } }
+
 
 /* -------------------------------------
   * SPEAKERS SECTION
@@ -224,22 +226,28 @@ h2 {
   overflow: hidden; }
   #speakers h2 {
     margin-bottom: 20px; }
+  #speakers h3 {
+    font-size: 1.1em; }
 
 .speaker {
   opacity: 0;
   transform: translateX(-20px);
   text-align: center;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  float: left;
+  width: 50%; }
+  .speaker p {
+    font-size: 12px; }
   .speaker.show {
     opacity: 1;
     transform: translateY(0px);
     transition: 1s; }
+  .speaker .description {
+    padding: 15px 0; }
   .speaker img {
-    max-width: 100%;
     display: block;
-    width: 15em;
-    height: 15em;
-    border-radius: 50%;
+    width: 8em;
+    height: 8em;
     margin: 0 auto;
     -webkit-filter: grayscale(1);
     filter: grayscale(1); }
@@ -323,7 +331,10 @@ h2 {
 @media screen and (min-width: 650px) {
   .speaker {
     float: left;
-    width: 50%; } }
+    width: 50%; }
+    .speaker img {
+      width: 13em;
+      height: 13em; } }
 
 @media screen and (min-width: 900px) {
   .speaker {
@@ -342,6 +353,9 @@ h2 {
   #speakers, #about {
     padding-left: 13%;
     padding-right: 13%; }
+  .speaker {
+    float: left;
+    width: 25%; }
   #schedule {
     padding-left: 15em;
     padding-right: 15em; } }
