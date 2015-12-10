@@ -64,14 +64,15 @@ nav a:hover {
 
 .hamburger {
   float: right;
-  padding: 15px 20px;
+  padding: 12px 20px;
   color: rgb(0, 199, 117);
 }
 
 .responsive-menu {
-  margin-top: 60px;
+  margin-top: 55px;
   background-color: black;
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .responsive-menu li {
@@ -82,8 +83,10 @@ nav a:hover {
   background-color: white;
 }
 
-.showing {
-  display: block;
+.responsive-menu.showing {
+  /*display: block;*/
+  opacity: 1;
+  transition: 0.3s;
 }
 
 /***** VIDEO *****/
