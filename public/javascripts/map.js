@@ -3,6 +3,7 @@ $(document).ready(function() {
 	var mapOptions = {
 	          zoom: 16,
 	          scrollwheel: false,
+						disableDefaultUI: true,
 	          center: {lat: -37.817863, lng: 144.952563},
 	          styles: [{
 	            stylers:[

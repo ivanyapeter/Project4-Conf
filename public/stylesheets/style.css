@@ -37,7 +37,6 @@ h2 {
  * ABOUT SECTION
  * ------------------------------------- */
 .about-section-body {
-  width: 70%;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
@@ -191,7 +190,6 @@ h2 {
   color: white; }
 
 .sponsors-section-body {
-  width: 70%;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto; }
@@ -203,31 +201,24 @@ h2 {
       color: #337ab7; }
   .sponsors-section-body .sponsors-logos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
     padding-top: 30px; }
     .sponsors-section-body .sponsors-logos img {
-      width: 30%;
-      height: 30%; }
-
-
-@media screen and (max-width: 767px) {
-  .sponsors-section-body {
-    padding-top: 65px;
-    padding-bottom: 65px;
-    padding-right: 5%;
-    padding-left: 5%; } }
-
+      width: 150px;
+      height: 150px; }
 
 /* -------------------------------------
   * SPEAKERS SECTION
   * ------------------------------------- */
 #speakers {
-  background-color: #dddfd4;
   overflow: hidden; }
   #speakers h2 {
     margin-bottom: 20px; }
   #speakers h3 {
     font-size: 1.1em; }
+  #speakers hr {
+    margin-bottom: 5%; }
 
 .speaker {
   opacity: 0;
@@ -259,9 +250,6 @@ h2 {
  * CONTACT SECTION
  * ------------------------------------- */
 #contact {
-  background-image: url("https://d13yacurqjgara.cloudfront.net/users/287797/screenshots/2360164/800-600_3.gif");
-  background-position: center;
-  z-index: -1;
   padding: 0px; }
   #contact .section-heading h1 {
     color: white; }
@@ -269,27 +257,38 @@ h2 {
     color: black;
     background-color: black; }
 
+.contact-background {
+  background-image: url("https://d13yacurqjgara.cloudfront.net/users/287797/screenshots/2360164/800-600_3.gif");
+  background-position: center; }
+
+.contact-contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
 .contact-overlay {
   background-color: rgba(0, 199, 117, 0.6);
-  z-index: 1;
-  margin: 0;
-  padding: 65px;
   width: 100%;
-  position: relative; }
+  height: inherit;
+  z-index: 10;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  padding-right: 5%;
+  padding-left: 5%; }
 
 .contact-section-body {
-  width: 70%;
   margin-top: 5%;
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
   .contact-section-body .contact-form {
-    width: 230px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-box-shadow: 0px 0px 25px 1px black;
     -moz-box-shadow: 0px 0px 25px 1px black;
-    box-shadow: 0px 0px 25px 1px black; }
+    box-shadow: 0px 0px 25px 1px black;
+    background-color: white; }
   .contact-section-body p {
     font-size: 1em;
     color: white; }
@@ -307,13 +306,7 @@ h2 {
     padding-top: 65px;
     padding-bottom: 65px;
     padding-right: 5%;
-    padding-left: 5%; }
-  .contact-section-body {
-    width: 100%; }
-  input {
-    width: 70%; }
-  .btn {
-    width: 28%; } }
+    padding-left: 5%; } }
 
 /* -------------------------------------
  * FOOTER SECTION

@@ -52,7 +52,6 @@ h2 {
  * ------------------------------------- */
 
 .about-section-body {
-	width: 70%;
 	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
@@ -259,7 +258,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	// background-image: url('http://www.walldevil.com/wallpapers/a92/simple-wallpapers-triangle-awesome-abstract-artwork-wallpaper.jpg');
 }
  .sponsors-section-body {
- 	width: 70%;
  	margin-top: 5%;
  	margin-left: auto;
  	margin-right: auto;
@@ -276,17 +274,19 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 
 	.sponsors-logos {
 		display: flex;
-		justify-content: space-around;
-		// align-content: center;
+		justify-content: center;
+		align-content: center;
 		padding-top: 30px;
 
 		img {
-			width: 30%;
-			height: 30%;
+			width: 150px;
+			height: 150px;
 		}
 	}
 
  }
+
+
 
 
  /* -------------------------------------
@@ -294,7 +294,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
   * ------------------------------------- */
 
 #speakers {
-	background-color: #dddfd4;
+	// background-color: #dddfd4;
 	overflow: hidden;
 
 	h2 {
@@ -304,6 +304,9 @@ box-shadow: 0px 0px 25px 0px darkgrey;
   h3 {
     font-size: 1.1em;
   }
+	hr {
+		margin-bottom: 5%;
+	}
 }
 
 .speaker {
@@ -313,6 +316,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
   margin-bottom: 10px;
   float: left;
   width: 50%;
+
 
   p {
     font-size: 12px;
@@ -348,9 +352,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
  * ------------------------------------- */
 
 #contact {
-	background-image: url('https://d13yacurqjgara.cloudfront.net/users/287797/screenshots/2360164/800-600_3.gif');
-	background-position: center;
-	z-index: -1;
 	padding: 0px;
 
 	.section-heading {
@@ -365,35 +366,42 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	}
 }
 
+.contact-background {
+	background-image: url('https://d13yacurqjgara.cloudfront.net/users/287797/screenshots/2360164/800-600_3.gif');
+	background-position: center;
+}
+
+.contact-contents {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
 .contact-overlay {
 	background-color: rgba(0, 199, 117, 0.6);
-	z-index: 1;
-	margin: 0;
-	padding: 65px;
-	width: 100%;
-	position: relative;
+  width: 100%;
+  height: inherit;
+  z-index: 10;
+	padding-top: 65px;
+	padding-bottom: 65px;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 
 .contact-section-body {
-	width: 70%;
 	margin-top: 5%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 
-  // opacity: 0;
-
 	.contact-form {
-		width: 230px;
-		// height: 40px;
-		// display: flex;
-		// justify-content: center;
-		// align-items: center;
-		margin-left: 0;
-		margin-right: 0;
+		margin-left: auto;
+		margin-right: auto;
 		-webkit-box-shadow: 0px 0px 25px 1px black;
 		-moz-box-shadow: 0px 0px 25px 1px black;
 		box-shadow: 0px 0px 25px 1px black;
+		background-color: white;
 	}
 
 	p {
@@ -404,7 +412,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	input {
 		padding: 0.5em;
 		font-size: 1em;
-		// width: 170px;
 		border: none;
 	}
 
@@ -414,10 +421,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 		margin: 0;
 	}
 
-  // &.show {
-  //   opacity: 1;
-  //   transition: 0.5s;
-  // }
 }
 
 @media screen and (max-width: 767px) {
@@ -427,16 +430,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 		padding-right: 5%;
 		padding-left: 5%;
 	}
-	.contact-section-body {
-		width: 100%;
-	}
-	input {
-		width: 70%;
-	}
 
-	.btn {
-		width: 28%;
-	}
 }
 
  /* -------------------------------------
