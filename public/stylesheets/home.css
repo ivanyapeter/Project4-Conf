@@ -71,8 +71,7 @@ nav a:hover {
 .responsive-menu {
   margin-top: 55px;
   background-color: black;
-  /*display: none;*/
-  opacity: 0;
+  display: none;
 }
 
 .responsive-menu li {
@@ -84,9 +83,7 @@ nav a:hover {
 }
 
 .responsive-menu.showing {
-  /*display: block;*/
-  opacity: 1;
-  transition: 0.3s;
+  display: block;
 }
 
 /***** VIDEO *****/
