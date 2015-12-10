@@ -17,7 +17,7 @@
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/helen.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Life",
 			"time": "9:30",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
 		}
@@ -53,9 +53,9 @@
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ravi.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Ravi's 50 Shades of Blue",
 			"time": "11:00",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "The blue man speaks out about life as a monochrome lover!"
 		}
 	},
 
@@ -65,9 +65,9 @@
 		"github": "xyz@xyz.com",
 		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/asev.png",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "This Is The End?",
 			"time": "11:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "You won't want to miss this talk!"
 		}
 	},
 
@@ -77,9 +77,9 @@
 		"github": "xyz@xyz.com",
 		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/ashton.png",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "The Invisible Man",
 			"time": "13:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Where is Ashton? Learn from the disappearing master himself!"
 		}
 	},
 
@@ -112,7 +112,7 @@
 		"description": "no decription",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ivan.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "I'll Think About It Tonight..",
 			"time": "15:00",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
 		}
