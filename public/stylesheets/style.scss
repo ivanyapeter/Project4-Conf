@@ -59,7 +59,7 @@ h2 {
 
 	p {
 		// text-align: center;
-		font-size: 1em;
+		font-size: 1.2em;
     text-align: justify;
 	}
 
@@ -264,7 +264,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 
  	p {
  		text-align: center;
- 		font-size: 1em;
+ 		font-size: 1.2em;
 
 		a {
 			text-decoration: none;
@@ -285,9 +285,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	}
 
  }
-
-
-
 
  /* -------------------------------------
   * SPEAKERS SECTION
@@ -362,8 +359,15 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 		hr {
 			color: black;
 			background-color: black;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 8px;
+			width: 18%;
+			height: 3px;
+			border: 0 none;
 		}
 	}
+
 }
 
 .contact-background {
@@ -376,6 +380,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+
 }
 
 .contact-overlay {
@@ -390,7 +395,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 }
 
 .contact-section-body {
-	margin-top: 5%;
+	margin-top: 3%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -405,7 +410,7 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	}
 
 	p {
-		font-size: 1em;
+		font-size: 1.2em;
 		color: white;
 	}
 
@@ -413,12 +418,14 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 		padding: 0.5em;
 		font-size: 1em;
 		border: none;
+		width: 63.5%;
 	}
 
 	.btn {
 		padding: 0.5em;
 	  font-size: 1em;
 		margin: 0;
+		width: 35%;
 	}
 
 }
@@ -447,20 +454,6 @@ box-shadow: 0px 0px 25px 0px darkgrey;
 	}
 }
 
-
-// #footer {
-// 	background-color: #173e43;
-// 	padding: 30px;
-// 	color: #fff;
-// 	text-align: center;
-//
-// 	ul {
-// 		padding: 0;
-// 	}
-// 	li {
-// 		display: inline-block;
-// 	}
-// }
 
 
 /* -------------------------------------

@@ -42,7 +42,7 @@ h2 {
   margin-right: auto;
   opacity: 0; }
   .about-section-body p {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: justify; }
   .about-section-body.show {
     opacity: 1;
@@ -195,7 +195,7 @@ h2 {
   margin-right: auto; }
   .sponsors-section-body p {
     text-align: center;
-    font-size: 1em; }
+    font-size: 1.2em; }
     .sponsors-section-body p a {
       text-decoration: none;
       color: #337ab7; }
@@ -255,7 +255,13 @@ h2 {
     color: white; }
   #contact .section-heading hr {
     color: black;
-    background-color: black; }
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    width: 18%;
+    height: 3px;
+    border: 0 none; }
 
 .contact-background {
   background-image: url("https://d13yacurqjgara.cloudfront.net/users/287797/screenshots/2360164/800-600_3.gif");
@@ -278,7 +284,7 @@ h2 {
   padding-left: 5%; }
 
 .contact-section-body {
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
@@ -290,16 +296,18 @@ h2 {
     box-shadow: 0px 0px 25px 1px black;
     background-color: white; }
   .contact-section-body p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white; }
   .contact-section-body input {
     padding: 0.5em;
     font-size: 1em;
-    border: none; }
+    border: none;
+    width: 63.5%; }
   .contact-section-body .btn {
     padding: 0.5em;
     font-size: 1em;
-    margin: 0; }
+    margin: 0;
+    width: 35%; }
 
 @media screen and (max-width: 767px) {
   .contact-overlay {
