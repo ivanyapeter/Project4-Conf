@@ -49,8 +49,9 @@ h2 {
   opacity: 0;
 
 	p {
-		text-align: center;
+		// text-align: center;
 		font-size: 1em;
+    text-align: justify;
 	}
 
   &.show {
@@ -279,12 +280,15 @@ h2 {
 
 #speakers {
 	background-color: #dddfd4;
-	// padding: 30px;
 	overflow: hidden;
 
 	h2 {
 		margin-bottom: 20px;
 	}
+
+  h3 {
+    font-size: 1.1em;
+  }
 }
 
 .speaker {
@@ -292,6 +296,12 @@ h2 {
 	transform: translateX(-20px);
 	text-align: center;
   margin-bottom: 10px;
+  float: left;
+  width: 50%;
+
+  p {
+    font-size: 12px;
+  }
 
 	&.show {
 		opacity: 1;
@@ -299,12 +309,14 @@ h2 {
 		transition: 1s;
 	}
 
+  .description {
+    padding: 15px 0;
+  }
+
 	img {
-		max-width: 100%;
 		display: block;
-		width: 15em;
-		height: 15em;
-		border-radius: 50%;
+		width: 8em;
+		height: 8em;
 		margin: 0 auto;
 		-webkit-filter: grayscale(1);
   	filter: grayscale(1);
@@ -354,6 +366,11 @@ h2 {
 	.speaker {
 		float: left;
 		width: 50%;
+
+    img {
+      width: 13em;
+      height: 13em;
+    }
 	}
 
 }
@@ -381,6 +398,11 @@ h2 {
 		padding-left: 13%;
 		padding-right: 13%;
 	}
+
+  .speaker {
+    float: left;
+    width: 25%;
+  }
 
 	#schedule {
 		padding-left: 15em;

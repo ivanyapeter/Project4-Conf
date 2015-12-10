@@ -9,9 +9,9 @@ $(document).ready(function() {
 
 		$('.video-overlay-contents').css({
 			'opacity': 1 - (wScroll/477)
-		})
+		});
 
-		if (wScroll > 530) {
+		if (wScroll > 300) {
 			$('.about-section-body').addClass('show');
 		}
 

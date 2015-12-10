@@ -1,21 +1,21 @@
 [
 	{
 		"name": "Aviel Goh",
-		"description": "master of inspect element",
+		"description": "ruby + chill?",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/animals/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/aviel.png",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Clients",
 			"time": "9:00",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"description": "Aviel will talk about his experiences and tips on working with clients."
 		}
 	},
 
 	{
 		"name": "Helen Habakuk",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/helen.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "9:30",
@@ -25,13 +25,13 @@
 
 	{
 		"name": "Keryn Robinson",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/keryn.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Hacking for Humanity",
 			"time": "10:00",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Keryn will talk about what she learned at her first weekend 'hackathon', working with a team for a social enterprise called Right Click Community."
 		}
 	},
 
@@ -39,19 +39,19 @@
 		"name": "Kylie Sy",
 		"description": "master of inspect element",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASJAAAAJDAxMDE3YmM4LWZkN2QtNDU3MS04Mjc4LWExMDc1YjcxZDFhYg.jpg",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Having an Open Mind",
 			"time": "10:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Kylie will discuss the importance of being open to different ideas."
 		}
 	},
 
 	{
 		"name": "Ravi Chada",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/nature/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ravi.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "11:00",
@@ -61,9 +61,9 @@
 
 	{
 		"name": "Asep Norzai",
-		"description": "master of inspect element",
+		"description": "space traveller",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/food/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/asev.png",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "11:30",
@@ -73,9 +73,9 @@
 
 	{
 		"name": "Ashton Sobell",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/transport/",
+		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/ashton.png",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "13:30",
@@ -85,33 +85,32 @@
 
 	{
 		"name": "Bono Liu",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/bono.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "From Waterfall to Agile",
 			"time": "14:00",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Spending 50% of your time on planning and designing or getting progress for every sprint? That's your choice!"
 		}
 	},
 
 	{
 		"name": "Gregory Fernandes",
-		"description": "master of inspect element",
+		"description": "no decription",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/greg.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "Code a 'Jumpy Piranha' Game in 10 Minutes",
 			"time": "14:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Greg is a newbie himself, and he will demo how to code a game like Flappy Bird, the game that earned the creator around $50,000 per day. The demo will be a few minutes, but enough to get you rolling like a cannon ball. REQUIREMENTS: A laptop, wifi. A webserver installed on the laptop. Rails will do, might be an overkill though. A few grey cells, fingers and 2 sockets with eyeballs in 'em."
 		}
 	},
 
 	{
 		"name": "Ivan Yapeter",
-		"description": "master of inspect element",
-		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/food/",
+		"description": "no decription",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ivan.png?raw=true",
 		"talk": {
 			"title": "Lorem Ipsum Dolor Sit Amet",
 			"time": "15:00",
@@ -121,13 +120,13 @@
 
 	{
 		"name": "Tobias Letcher",
-		"description": "master of inspect element",
+		"description": "hominid with a turing machine",
 		"github": "xyz@xyz.com",
-		"imgPath": "http://lorempixel.com/480/640/cats/",
+		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/toby.png?raw=true",
 		"talk": {
-			"title": "Lorem Ipsum Dolor Sit Amet",
+			"title": "The Prisoner's Dilemma",
 			"time": "15:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Toby will talk about the prisoner's dilemma, its intellectual consequences in Economics and real world applications in negotiation."
 		}
 	}
 ]
