@@ -1,31 +1,31 @@
 [
 	{
 		"name": "Aviel Goh",
-		"description": "ruby + chill?",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/aviel.png",
 		"talk": {
-			"title": "Clients",
+			"title": "10 Tips For Work",
 			"time": "9:00",
-			"description": "Aviel will talk about his experiences and tips on working with clients."
+			"description": "Aviel will discuss his top 10 tips for your first job."
 		}
 	},
 
 	{
 		"name": "Helen Habakuk",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/helen.png?raw=true",
 		"talk": {
-			"title": "Life",
+			"title": "Communication Mistakes",
 			"time": "9:30",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Helen will talk about communication mistakes."
 		}
 	},
 
 	{
 		"name": "Keryn Robinson",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/keryn.png?raw=true",
 		"talk": {
@@ -37,7 +37,7 @@
 
 	{
 		"name": "Kylie Sy",
-		"description": "master of inspect element",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASJAAAAJDAxMDE3YmM4LWZkN2QtNDU3MS04Mjc4LWExMDc1YjcxZDFhYg.jpg",
 		"talk": {
@@ -49,7 +49,7 @@
 
 	{
 		"name": "Ravi Chada",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ravi.png?raw=true",
 		"talk": {
@@ -61,7 +61,7 @@
 
 	{
 		"name": "Asep Norzai",
-		"description": "space traveller",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/asev.png",
 		"talk": {
@@ -73,7 +73,7 @@
 
 	{
 		"name": "Ashton Sobell",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://raw.githubusercontent.com/mattswann/WDI4_conf/master/speakers-headshots/ashton.png",
 		"talk": {
@@ -85,7 +85,7 @@
 
 	{
 		"name": "Bono Liu",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/bono.png?raw=true",
 		"talk": {
@@ -97,7 +97,7 @@
 
 	{
 		"name": "Gregory Fernandes",
-		"description": "no decription",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/greg.png?raw=true",
 		"talk": {
@@ -109,18 +109,18 @@
 
 	{
 		"name": "Ivan Yapeter",
-		"description": "no decription",
+		"description": "Web Developer",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/ivan.png?raw=true",
 		"talk": {
-			"title": "I'll Think About It Tonight..",
+			"title": "You Can't Animate This!",
 			"time": "15:00",
-			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ea necessitatibus quo velit natus cupiditate qui alias possimus ab praesentium nostrum quidem obcaecati nesciunt!"
+			"description": "Ivan will discuss a variety of CSS animations and their application in user experience design."
 		}
 	},
 
 	{
 		"name": "Tobias Letcher",
-		"description": "hominid with a turing machine",
+		"description": "Web Developer",
 		"github": "xyz@xyz.com",
 		"imgPath": "https://github.com/mattswann/WDI4_conf/blob/master/speakers-headshots/toby.png?raw=true",
 		"talk": {

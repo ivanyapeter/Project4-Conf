@@ -376,6 +376,10 @@ table {
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 
+/* ==========================================================================
+   Custom normalize
+   ========================================================================== */
+
 html {
   box-sizing: border-box;
 }
