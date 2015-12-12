@@ -28,7 +28,7 @@ Build a website for a technology conference that included the following ([full s
 
 ## Key features
 
-- *"Find someone who has..."* ice breaker [game](http://wdiconference.herokuapp.com/game) with live results displayed using Firebase
+- *"Find someone who has..."* ice breaker [game](http://wdiconference.herokuapp.com/games) with live results displayed using Firebase
 - Google Maps API integration
 - Eventbrite ticketing integration
 - Fully mobile responsive
